@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".TugasPutri">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/putri"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/img_photo"
+        android:text="Sri Putrianti Mateka"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txt_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout="@+id/img_photo"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text="Salah Satu mahasiswa Universitas Tadulako Fakultas Teknik Jurusan Teknologi Informasi Prodi Teknik Informatika. Alamat di Kelurahan Petobo Jl.Merdeka No.10" />
+
+</RelativeLayout>
